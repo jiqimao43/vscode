@@ -5,6 +5,7 @@
 		<attributes>
 			<ObjectAttribute text="{AirLineID}"></ObjectAttribute>
 			<ObjectAttribute text="{URL}"></ObjectAttribute>
+			<ObjectAttribute text="{URL1}"></ObjectAttribute>
 		</attributes>
 	</ObjectHeader>
 	<!-- This extension point can be used to add fields to l:VerticalLayout -->

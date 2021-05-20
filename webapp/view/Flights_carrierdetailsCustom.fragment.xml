@@ -6,7 +6,11 @@
 			<ObjectAttribute text="{AirLineID}"></ObjectAttribute>
 			<ObjectAttribute text="{URL}"></ObjectAttribute>
 			<ObjectAttribute text="{URL1}"></ObjectAttribute>
+<<<<<<< HEAD
 			<ObjectAttribute text="{Feature1}"></ObjectAttribute>
+=======
+			<ObjectAttribute text="{Master1}"></ObjectAttribute>
+>>>>>>> branch 'master' of https://github.com/jiqimao43/vscode.git
 		</attributes>
 	</ObjectHeader>
 	<!-- This extension point can be used to add fields to l:VerticalLayout -->

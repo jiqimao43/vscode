@@ -1,0 +1,60 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "com.sap.training.ux402.fullscreen.UX402_FullScreenExercise.ZUX402_EXTAPP00Extension",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}"
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.30.0"
+		},
+		"extends": {
+			"component": "com.sap.training.ux402.fullscreen.UX402_FullScreenExercise",
+			"extensions": {
+				"sap.ui.viewModifications": {
+					"com.sap.training.ux402.fullscreen.UX402_FullScreenExercise.view.Flights": {
+						"idCarrierInfo": {
+							"visible": false
+						}
+					}
+				},
+				"sap.ui.viewExtensions": {
+					"com.sap.training.ux402.fullscreen.UX402_FullScreenExercise.view.Flights": {
+						"carrierdetails": {
+							"className": "sap.ui.core.Fragment",
+							"fragmentName": "com.sap.training.ux402.fullscreen.UX402_FullScreenExercise.ZUX402_EXTAPP00Extension.view.Flights_carrierdetailsCustom",
+							"type": "XML"
+						}
+					}
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		}
+	}
+}

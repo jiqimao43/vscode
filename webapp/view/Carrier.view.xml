@@ -3,7 +3,10 @@
 	<App>
 		<pages>
 			<Page title="Title">
-				<content></content>
+				<content>
+					<Text text="test1"></Text>
+					<Text text="test2"></Text>
+				</content>
 			</Page>
 		</pages>
 	</App>
